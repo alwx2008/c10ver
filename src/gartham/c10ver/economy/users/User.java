@@ -130,6 +130,10 @@ public class User extends SavablePropertyObject {
 		return account;
 	}
 
+	public RPGData getRPGdata() {
+		return rpgdata;
+	}
+
 	public UserSettings getSettings() {
 		return settings;
 	}
