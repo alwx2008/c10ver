@@ -10,6 +10,14 @@ public class RPGData extends SavablePropertyObject {
 	private final CreatureBox creatures;
 	private final User user;
 
+	public CreatureBox getCreatures() {
+		return creatures;
+	}
+
+	public User getUser() {
+		return user;
+	}
+
 	public RPGData(File saveLocation, User user) {
 		this(saveLocation, user, true);
 	}
