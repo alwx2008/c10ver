@@ -2597,7 +2597,7 @@ public class CloverCommandProcessor extends SimpleCommandProcessor {
 
 		help.addCommand("explore", "Explore the world!", "explore", "rpg");
 		help.addCommand("mailbox", "Shows you your mailbox! Your mail and passive rewards get sent here.", "mailbox",
-				"mail");
+				"mail", "mb");
 		help.addCommand("settings",
 				"Allows you to view and change your settings. For a list of settings (and values), run the command with no arguments.",
 				"setting", "options", "option");
